@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .box{
+    
+        width:1000px;
+        height:500px;
+        border:1px solid #888;
+        display: flex;
+        flex-direction: column;
+    }
+    .box>div{
+        flex: 1;
+        border: 1px solid #888;
+    }
+    .one{
+       display: flex;
+   }
+   .one>div{
+       flex: 1;
+       border:1px solid #888;
+   }
+   .one>div:first-child{
+       flex: 2;
+   }
+   .two{
+       display: flex;
+   }
+   .two>div{
+       flex:1;
+       border:1px solid #888;
+   }
+   .two-1{
+       display: flex;
+       flex-direction: column;
+   }
+   .two-1>div{
+       flex: 1;
+       border:1px solid #888;
+   }
+   .three{
+       display: flex;
+   }
+   .three>div{
+       flex:1;
+       border: 1px solid #888;
+   }
+    </style>
+</head>
+<body>
+      <div class="box">
+          <div class="one">
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+          <div class="two">
+                 <div class="two-1">
+                     <div></div>
+                     <div></div>
+                 </div>
+                <div></div>
+                <div></div>
+                <div></div>
+          </div>
+          <div class="three">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+        
+      </div>
+</body>
+</html>

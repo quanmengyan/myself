@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/public.css">
+<style>
+    .max{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+    }
+    @media(max-width:1500px){
+        .max{
+            min-width: 1000px;
+            height: 100%;
+        }
+    }
+    @media(min-width:1500px){
+        .max{
+            min-width: 1500px;
+            height: 100%;
+        }
+    }
+    .top{
+        width: 100%;
+        height: auto;
+        background: transparent;
+        position: fixed;
+        top: 0px;
+        z-index: 100;
+    }
+    .top>div{
+        height: auto;
+        font-size: 0px;
+    }
+    @media(max-width:1500px){
+        .top>div{
+            width: 1000px;
+        }
+    }
+    @media(min-width:1500px){
+        .top>div{
+            width: 1300px;
+        }
+    }
+    .top_logo{
+        float: left;
+        width: auto;
+        height: auto;
+        margin-right: 50px;
+    }
+    .top_logo>img{
+        width: 90px;
+        height: auto;
+        position: relative;
+        top: 8px;
+        cursor: pointer;
+    }
+    .top_nav{
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 10px 0px;
+        vertical-align: bottom;
+    }
+    .top_nav>a>div{
+        float: left;
+        width: auto;
+        height: auto;
+        line-height: 20px;
+        margin-right: 10px;
+        padding: 5px 15px;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .top_nav>a>div:hover{
+        background: rgba(81,168,221,1);;
+    }
+    .top_port{
+        float: right;
+        width: auto;
+        height: auto;
+        padding: 10px 0px;
+    }
+    .top_port>a>div{
+        float: left;
+        width: auto;
+        height: auto;
+        line-height: 20px;
+        margin: 5px 0px;
+        padding: 0px 5px;
+        color: #fff;
+        font-size: 14px;
+    }
+    .content{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-image: url("images/789.jpg");
+        background-size: 100%;
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        padding: 0px 0px 0px;
+    }
+    @media(max-width:1500px){
+        .content{
+            background-position-y: -190px;
+        }
+    }
+    @media(min-width:1500px){
+        .content{
+            background-position-y: -170px;
+        }
+    }
+    .content_center{
+        width: auto;
+        height: 100%;
+        background: -webkit-linear-gradient(top,rgba(81,168,221,0)0.1%,rgba(81,168,221,0.2)100%);
+        position: relative;
+        top: 100%;
+    }
+    .content_center>div{
+        height: 100%;
+        padding: 100px 10px 10px;
+        display: none;
+        position: absolute;
+        margin:auto;
+        left:0;
+        top:0;
+        bottom:0;
+        right:0;
+        writing-mode:vertical-rl;
+    }
+    @media(max-width:1500px){
+        .content_center>div{
+            width: 1000px;
+        }
+    }
+    @media(min-width:1500px){
+        .content_center>div{
+            width: 1300px;
+        }
+    }
+    .my{
+        width: 350px;
+        height: 300px;
+        margin-top: 94px;
+        margin-left: 745px;
+    }
+    .my p{
+        color: #fff;
+        font-size: 16px;
+        line-height: 30px;
+        font-family: '幼圆';
+    }
+    /* .tab_1{
+        font-size: 15px;
+        line-height: 30px;
+        font-family: '幼圆';
+        color: #fff;
+        padding-bottom: 270px !important;
+        letter-spacing:8px;
+    } */
+    /* @media(max-width:1500px){
+        .tab_1{
+            padding-bottom: 270px !important;
+        }
+    }
+    @media(min-width:1500px){
+        .tab_1{
+            padding-bottom: 400px !important;
+        }
+    } */
+    .tab_2{
+        font-size: 20px;
+        line-height: 40px;
+        font-family: '幼圆';
+        padding-bottom: 300px !important;
+    }
+    .tab_2>a{
+        font-size: 15px;
+        line-height: 15px;
+        display: block;
+        margin-left: 20px;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        transition: all 0.5s;
+    }
+    .tab_2>a:hover{
+        background:-webkit-linear-gradient(top,rgba(81,168,221,1)0%,rgba(81,168,221,0)100%);
+        transition: all 0.5s;
+    }
+    .dis{
+        display: block !important;
+    }
+    .ted{
+        text-decoration: line-through;
+    }
+</style>
+<body>
+<div class="max">
+    <div class="top">
+        <div class="center row">
+            <a><div class="top_logo"><img src="images/relife.gif" ondragstart="return false"/></div></a>
+            <div class="top_nav row">
+                <a><div class="go_0">主页</div></a>
+                <a><div class="go_1">关于我</div></a>
+                <a><div class="go_2">作品展示</div></a>
+            </div>
+            <div class="top_port">
+                <a><div></div></a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content_center center">
+            <div class="my">
+             <p>姓名：全梦妍</p>
+             <p>性别：女</p>
+             <p>籍贯：湖北襄阳</p>
+             <p>学历：本科</p>
+             <p>专业：计算机科学与技术（软件工程方向）</p>
+             <p>爱好：音乐、跑步、看书</p>
+         </div>
+            <div class="tab_2 center">
+                    <a href="作业/锤子官网/index.html" target="_blank">锤子官网</a>
+                    <a href="作业/家居医生/index.html" target="_blank">家居医生</a>
+                    <a href="作业/家居木材/index.html" target="_blank">家居木材</a>
+                    <a href="作业/家居/index.html" target="_blank">家居</a>
+                    <a href="作业/小米商城/index.html" target="_blank">小米商城</a>
+                    <a href="作业/小米官网/index.html" target="_blank">小米官网</a>
+                    <a href="作业/小米服务/index.html" target="_blank">小米服务</a>
+                    <a href="作业/小米全部/index.html" target="_blank">小米全部</a>
+                    <a href="作业/小米盒子/index.html" target="_blank">小米盒子</a>
+                    <a href="作业/小米合约机/index.html" target="_blank">小米合约机</a>
+                    <a href="作业/dangao/index.html" target="_blank">蛋糕种类</a>
+                    <a href="作业/木兮地板/index.html" target="_blank">木兮地板</a>
+                    <a href="作业/个人网页/01.html" target="_blank">个人网页</a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom"></div>
+</div>
+<script src="js/jquery-3.3.1.js"></script>
+<script>
+    $(() => {
+        $(".content_center").animate({top:"100%"},500)/*刷新重置*/
+        $(".go_0,.top_logo>img").click(() => {/*回到首页*/
+            $(".content_center").animate({top:"100%"},500)
+            setTimeout(() => {/*延时更换内容*/
+                    $(".my").removeClass("dis").siblings().removeClass("dis")
+            }, 400);
+        })
+        $(".go_1").click(() => {/*栏目一*/
+            if($(".content_center").position().top==0 && !$(".my").hasClass("dis")){
+                $(".content_center").animate({top:"100%"},500)
+                $(".content_center").animate({top:"0%"},500)
+                setTimeout(() => {/*延时更换内容*/
+                    $(".my").addClass("dis").siblings().removeClass("dis")
+                }, 400);
+            }else{
+                $(".content_center").animate({top:"0%"},500)
+                setTimeout(() => {/*延时更换内容*/
+                    $(".my").addClass("dis").siblings().removeClass("dis")
+                }, 100);
+            }
+        })
+        $(".go_2").click(() => {/*栏目二*/
+            if($(".content_center").position().top==0 && !$(".tab_2").hasClass("dis")){
+                $(".content_center").animate({top:"100%"},500)
+                $(".content_center").animate({top:"0%"},500)
+                setTimeout(() => {/*延时更换内容*/
+                    $(".tab_2").addClass("dis").siblings().removeClass("dis")
+                }, 400);
+            }else{
+                $(".content_center").animate({top:"0%"},500)
+                setTimeout(() => {/*延时更换内容*/
+                    $(".tab_2").addClass("dis").siblings().removeClass("dis")
+                }, 100);
+            }
+        })
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,424 @@
+ *{margin:0;padding:0;}
+/* top.css */
+.top{
+    width:100%;
+    height:36px;
+    background:#fafafa;
+    border-bottom: 1px solid #ccc;
+}
+.top-mi{
+    width:1240px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.top-left{
+    text-align: center;
+}
+.top-left a{
+    float: left;
+    text-decoration: none;
+    color:#999;
+    margin-right: 25px;
+    line-height: 35px;
+    font-size: 14px;
+    /* border-right:1px solid #ccc; */
+}
+.row{
+    content: "";
+    display: table;
+    clear: both;
+}
+.top-right p{
+    position: absolute;
+    color:#999;
+    width:59px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    font-size: 14px;
+    right:50px;
+    top:10px;
+}
+.top-right span{
+    position: absolute;
+    top: 10px;
+     right:0px;
+     color:#999;
+     font-size: 14px;
+}
+/* nav start */
+.logo{
+    height:80px;
+    width:1240px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-img img{
+    margin-top: 6px;
+}
+.logo-clock{
+    margin-left: 1125px;
+    margin-top: -80px;
+    position: relative;
+}
+.logo-clock span{
+    font-size: 12px;
+    color:#aaa;
+    position: absolute;
+    top:1px;
+    right:1px;
+}
+.logo-right{
+    position: relative;
+    width:425px;
+    height:40px;
+    margin-left: 680px;
+    margin-top: 17px;
+}
+.logo-right>input{
+    position: absolute;
+ }
+ .logo-right>:first-child{
+     width:425px;
+     height: 40px;
+     border:1px solid #999;
+     box-sizing: border-box;
+ }
+ .logo-right>:last-child{
+     width:40px;
+     height:40px;
+     z-index: 100;
+     background:url("images/fangdajing.png") no-repeat center center;
+     border:none;
+     border-left: 1px solid #999;
+     outline: none;
+     right:0px;
+ }
+ .che{
+     width:120px;
+     height:40px;
+     background: #ffdb3d;
+     margin-left: 1120px;
+     margin-top: -40px;
+     text-align: center;
+     line-height: 40px;
+ }
+ .che img{
+     margin-right: 4px;
+ }
+.nav{
+    width:1240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height:50px;
+    background: #404145;
+}
+.nav a{
+    float: left;
+    color:#fff;
+    text-decoration: none;
+    line-height: 50px;
+   
+}
+.nav-all{
+    width:20%;
+    background: #ff4a00 !important;
+    padding-left: 15px;
+}
+.nav a:not(:first-child){
+   margin-right: 32px;
+    margin-left: 20px;
+}
+/*nav结束 */
+.xiaomi{
+    width:auto;
+    background:#fafafa;
+    margin-top: 25px;
+}
+.mi{
+    width:1240px;
+    height:40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.mi span{
+    line-height: 40px;
+}
+.mi p{
+    margin-left: 725px;
+    margin-top: -30px;
+    font-size: 12px;
+    color:#888;
+}
+.mi button{
+    position: absolute;
+    width:120px;
+    height:30px;
+    color:#fff;
+    font-size: 16px;
+    background: #ff4a00;
+    right:1px;
+    top:5px;
+    border:none;
+}
+/* 内容 开始 */
+.photo{
+    margin-top: 30px;
+    width:auto;
+}
+.photo-one{
+    position: relative;
+    height:690px;
+    background: url("images/hezi.png")no-repeat center center;
+}
+.photo-one img{
+    position: absolute;
+    left: 136px;
+    top: 15px;
+}
+.photo-one h1{
+    position: absolute;
+    left:550px;
+    top:55px;
+    color:#555;
+    font-size: 42px;
+}
+.photo-one p{
+    position: absolute;
+    left:562px;
+    top:114px;
+    font-size: 14px;
+    color:#888;
+}
+.photo-one h2{
+    left:614px;
+    top:148px;
+    position: absolute;
+    color:#ff4a00;
+}
+.photo-one button{
+    position: absolute;
+    width:120px;
+    height:35px;
+    color:#fff;
+    font-size: 16px;
+    background: #ff4a00;
+    left:594px;
+    top:204px;
+    border:none;
+}
+.photo-two{
+    height:690px;
+    background: url("images/xiaomichazuo.png")no-repeat center center;
+    text-align: center; 
+    overflow: hidden;
+}
+.photo-two>:first-child{
+    margin-top: 48px;
+    font-size: 50px;
+}
+.photo-two p:not(:first-child){
+    font-size: 14px;
+    color:#888;
+    line-height: 25px;
+}
+.photo-three{
+    height:1000px;
+    background: url("images/jihe.png")no-repeat center center;
+}
+.photo-four{
+    height:1200px;
+    background: url("images/hz-4.jpg")no-repeat center center;
+}
+.photo-five{
+    height:800px;
+    background: url("images/jiating.png")no-repeat center center;
+}
+.photo-six{
+    height:650px;
+    text-align: center;
+}
+.photo-six>:first-child{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.photo-six>p:first-child+p{
+    color:#f25951;
+    font-size: 30px;
+}
+.photo-six img{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.photo-six>p:last-child{
+    width:145px;
+    height:40px;
+    line-height: 40px;
+    background: #ff4a00;
+    color:#fff;
+    margin-left: 615px;
+    font-size: 14px;
+    border: none;
+    margin-top: 35px;
+}
+.resign{
+    width:1000px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.resign>div{
+    float: left;
+    width:20%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.resign>div:not(:last-child)::after{
+    content:"";
+    display: block;
+    position: absolute;
+    width:1px;
+    height:100%;
+    top:0;
+    right:0;
+    border-right: 1px solid #ddd;
+} 
+.view{
+    width:999px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.view>div{
+    float: left;
+    width:33.3333%;
+    text-align: center;
+}
+.view-hand-one{
+    font-size: 20px;
+}
+.view-hand-two{
+    margin-top: 10px;
+    font-size: 14px;
+    color:#999;
+}
+.view-hand>p:last-child{
+    color:#ff4a00;
+    margin-top: 15px;
+}
+/* footer .css */
+.bottom{
+    width:auto;
+    background: #fafafa;
+}
+.foot{
+    width:1240px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.foot>div{
+    margin-top: 50px;
+   text-align: center;
+    float: left;
+    width:20%;
+}
+.foot>div>p{
+    margin-top: 15px;
+    font-size: 18px;
+    color: #999;
+}
+.footer{
+    width:1240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #999;
+}
+.footer a{
+   display: block;
+}
+.footer>div{
+    float: left;
+}
+.footer>div:not(:last-child){
+    width:16%;
+    border-right: 1px solid #999;
+}
+.footer-six>a:first-child{
+     font-size: 26px;
+     color:#999;
+}
+.footer-six>a:first-child+a{
+    margin-left: 65px;
+}
+.footer-six>a:first-child+a+a{
+    margin-left: 90px;
+}
+.footer-six>a{
+    margin-top: 3px;
+    color: #999;
+   margin-left: 40px;
+}
+.footer-six p{
+    margin-top: 15px;
+    width:120px;
+    height: 30px;
+    background:#ff4a00;
+    margin-left: 70px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.footer-six p:hover{
+    cursor: pointer;
+}
+.footer>div:not(:last-child)>a{
+    color:#999;
+    line-height: 30px;
+    width:100px;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.footer>div>h3{
+    margin-left: 30px;
+    line-height: 30px;
+    color:#444;
+}
+.web{
+    position: relative;
+    margin-top: 20px;
+    width:1240px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.web p{
+    line-height: 30px;
+    color:#444;
+}
+.web select{
+    position: absolute;
+    left: 600;
+    width:180px;
+    height: 35px;
+    margin-top: 10px;
+}
+.web img{
+    position: absolute;
+    top:80px;
+    left:450px;
+}
+

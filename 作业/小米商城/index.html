@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0}
+        .top{
+            height:50px;
+            background:#e0e0e0;
+        }
+        .header{
+            margin-top:10px;
+            position: relative;
+        }
+       .header img{
+           position: absolute;
+           left:269px;
+           background-color: #fa8c35;
+       }
+       .header-b{
+            position: absolute;
+            left:335px;
+            font-size: 34px;
+           margin-left: -1px;
+       }
+       .header-c{
+            position: absolute;
+            left:338px;
+            font-size: 12px;
+            top:36px;
+            margin-left: -3px;
+       }
+       .menu{
+           margin-top:80px;
+           position: relative;
+           margin-bottom: 15px;
+       }
+       .menu img{
+           margin-left: -130px;
+       }
+       .form{
+            position: absolute;
+            width:400px;
+            border:1px solid #333;
+            background: #fff;
+            left:994px;
+            top:150px;
+            text-align: center;
+        }
+        ul{
+            font-size: 22px;
+            margin-top:30px;
+            margin-bottom: 30px;
+        }
+        li{
+            list-style: none;
+            display: inline-block;
+            color:#333;
+            }
+        fieldset{
+            border:none;
+            }
+        .border{
+            border-top: 1px solid #333;
+            width:340px;
+            display: inline-block;
+            margin-top:120px;
+            margin-bottom: 10px;
+        }
+        input{
+            border:1px solid #e0e0e0;
+            width:310px;
+            outline:none;
+            height:40px;
+            margin-top: 30px;
+            }
+         .one input{
+                width:330px;
+                height: 50px;
+                background:tomato;
+                color:#fff;
+               font-size:18px;
+               margin-bottom: 20px;
+            }
+            
+        .allIcon a{
+            display: inline-block;
+            position: relative;
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+            background:#333;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        .allIcon span{
+            position:absolute;
+            display: inline-block;
+            width:18px;
+            height:18px;
+            background:url("images/icons_type.png") no-repeat;
+            left:50%;top:50%;margin-left:-9px;margin-top: -9px;
+        }
+        .allIcon .qq{
+            background-position-x: -18px;
+        }
+        .allIcon .weibo{
+            background-position-x: -36px;
+        }
+        .allIcon .zhifu{
+            width:26px;
+            margin-left:-13px;
+            background-position-x: -57px;
+        }
+        .allIcon .weixin{
+            width:23px;
+            margin-left: -11.5px;
+            background-position-x: -84px;
+        }
+       .footer{
+           position: relative;
+           height:80px;
+       }
+       .three{
+           position: absolute;
+           top:40px;
+           left:550px;
+           font-size: 14px;
+       }
+       .four{
+           position: absolute;
+           top:60px;
+           left:430px;
+           font-size: 14px;
+           margin-bottom: 40px;
+           margin-top:10px;
+       }
+       
+    </style>
+
+</head>
+<body>
+    <div class="top"></div>
+
+    <div class="header">
+     <img src="images/mi-logo.png" alt="">
+    
+      <div class="header-b">
+          <p><strong>小米商城</strong></p>
+      </div>
+      <div class="header-c">
+      <p>让每个人都能享受科技的乐趣</p>
+      </div>
+    </div>
+    <div class="menu">
+     <img src="images/banner.png" alt="">
+    </div>
+    <div class="form">
+        <ul>
+            <li style="color:tomato">账号登陆</li>
+            <li>|</li>
+            <li>扫码登陆</li>
+        </ul>
+        <div>
+            <form>
+                <div><input type="text" placeholder="邮箱/手机号/小米账号"></div>
+                <div><input type="password" placeholder="请输入密码"></div>
+                <div class="one"><input type="submit" value="立即登陆"></div>
+            </form>
+        </div>
+        <div>
+            <a href="#">注册小米账号</a><span>|</span><a href="#">忘记密码</a>
+        </div>
+        <fieldset class="border">
+            <legend>其他登陆方式</legend>
+        </fieldset>
+        <div class="allIcon">
+            <a href="#"><span class="qq"></span></a>
+            <a href="#"><span class="weibo"></span></a>
+            <a href="#"><span class="zhifu"></span></a>
+            <a href="#"><span class="weixin"></span></a>
+        </div>
+    </div>
+        <div class="footer">
+            <p class="three">简体&nbsp;|&nbsp;繁体&nbsp;|&nbsp;English&nbsp;|&nbsp;常见问题</p>
+            <p class="four">小米公司版权所有京ICP备1004644-京公网安备11010902020134号 京ICP证110507号</p>
+        </div>
+</body>
+</html>
